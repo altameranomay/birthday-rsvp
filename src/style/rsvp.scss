@@ -1,0 +1,88 @@
+.rsvp-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .txt-rsvp {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    text-transform: capitalize;
+    text-align: center;
+    white-space: break-spaces;
+    width: 100%;
+    line-height: 1.5;
+    color: #c49e72;
+    background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .txt-big {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10em;
+    text-transform: capitalize;
+    text-align: center;
+    white-space: break-spaces;
+    width: 100%;
+    line-height: 0.8;
+    color: #c49e72;
+    background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .txt {
+    font-family: "Brittany", serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: left;
+    margin: 100px 0 0 70px;
+    line-height: 0;
+    color: #c49e72;
+    background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+    -webkit-background-clip: text;
+  }
+  .txt-description {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .description {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+    text-align: center;
+    margin-top: 30px;
+    width: 70%;
+    margin: 30px auto 0 auto;
+  }
+  img {
+    &.teddy-moon {
+      height: 35vh;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+  .lnk-rsvp {
+    border: 1.5px solid #b27552;
+    color: #511d00;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fdf0e8;
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    margin: 20px auto;
+  }
+}

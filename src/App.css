@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
+@import './style/welcome.scss'; 
+@import './style/countdown.scss'; 
+@import './style/rsvp.scss'; 
+@import './style/dresscode.scss'; 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #faecc7;
+  &::before {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    z-index: -1; 
+    background-image: url('/public/images/background.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body[data-aos-duration='4000'] [data-aos], [data-aos][data-aos][data-aos-duration='4000']{
+  transition-duration: 4000ms;
+}
+@font-face {
+  font-family: 'Astron-Script-Pro';
+  src: url('/public/fonts/FontsFree-Net-Aston-Script-Pro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Droid-Serif';
+  src: url('/public/fonts/DroidSerif-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Droid-Serif-regular';
+  src: url('/public/fonts/DroidSerif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Brittany';
+  src: url('/public/fonts/BrittanySignature.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

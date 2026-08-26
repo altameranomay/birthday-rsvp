@@ -1,0 +1,161 @@
+.welcome-wrapper {
+  position: relative;
+  .balloon {
+    background-image: url('/public/images/balloon.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    object-fit: cover;
+    height: 105px;
+    &.-top {
+      background-position: top;
+    }
+    &.-bottom {
+      position: relative;
+      margin-bottom: -50px;
+    }
+  }
+  .text-container {
+    position:relative;
+    .celebrant-name {
+      font-family: "Astron-Script-Pro", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 3.5em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 50px auto 0 auto;
+    }
+    .celebrant-age {
+      font-family: "Droid-Serif", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 5em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      color: #d19e57;
+      -webkit-text-stroke-width: 3px;   /* Border thickness */
+      -webkit-text-stroke-color: #ffffff;
+    }
+    .birthday-title {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 3em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      color: #d19e57;
+    }
+    .birthday-place {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 2.3em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      color: #000000;
+    }
+    .birthday-address {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      color: #000000;
+      line-height: 1.5;
+    }
+    .birthday-subtitle {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.2em;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 10px auto;
+      color: #000000;
+      line-height: 1.5;
+      span {
+        text-decoration: underline;
+        position: relative;
+        margin: 0 10px;
+      }
+    }
+  }
+  .date-time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    .day {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.3em;
+      text-align: center;
+      margin: 0 10px;
+      color: #000000;
+      line-height: 1.5;
+    }
+    .month-date-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .month {
+        font-family: "Droid-Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
+        text-align: center;
+        color: #000000;
+      }
+      .date {
+        font-family: "Droid-Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3em;
+        text-align: center;
+        color: #d19e57;
+        -webkit-text-stroke-width: 1.5px;   /* Border thickness */
+        -webkit-text-stroke-color: #ffffff;
+      }
+    }
+    .time {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1.3em;
+      text-align: center;
+      margin: 0 10px;
+      color: #000000;
+      line-height: 1.5;
+    }
+  }
+  .celebrant-img {
+    height: 35vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto 10px auto;
+    border: 10px solid #e3b756;
+  }
+}

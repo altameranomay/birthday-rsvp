@@ -1,0 +1,54 @@
+.dresscode-wrapper {
+  position: relative;
+  .title {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-transform: capitalize;
+    text-align: center;
+    white-space: break-spaces;
+    width: 100%;
+    line-height: 1.5;
+    color: #c49e72;
+    background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  .sub-title {
+    font-family: "Brittany", serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: right;
+    margin: 0 14vh 50px 0;
+    line-height: 0;
+    color: #c49e72;
+    background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+    -webkit-background-clip: text;
+  }
+  .text {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    text-align: center;
+    width: 70%;
+    margin: 30px auto 0 auto;
+  }
+  .attire-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+  }
+  .casual-attire {
+    width: 45%;
+    margin-right: 0px;
+    &.women {
+      width: 30%;
+      margin-left: -70px;
+    }
+  }
+}

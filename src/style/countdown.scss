@@ -1,0 +1,58 @@
+.countdown-wrapper {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  .title {
+    font-family: "Brittany", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+
+  }
+  .countdown-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    span {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 55px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      margin: 10px;
+      font-weight: 600;
+      color: #c49e72;
+      background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      font-family: "Droid-Serif-regular", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 11px;
+      position: relative;
+      display: block;
+      color: #c49e72;
+      background: -webkit-linear-gradient(77deg, rgba(196, 158, 114, 1) 0%, rgba(196, 152, 102, 1) 50%, rgba(215, 172, 108, 1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .countdown-bear {
+    position: relative;
+    img {
+      height: 60vh;
+      right: -100px;
+      position: relative;
+    }
+  }
+}
