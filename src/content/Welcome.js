@@ -23,7 +23,7 @@ const Welcome = () => {
       </div>
 
       <div className="text-container">
-        <p className="birthday-subtitle" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">WE RESERVED <span>2</span> SEATS FOR YOU.</p>
+        {/* <p className="birthday-subtitle" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">WE RESERVED <span>2</span> SEATS FOR YOU.</p> */}
       </div>
 
       {/* <div className="balloon -bottom"/> */}

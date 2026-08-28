@@ -3,9 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Welcome from './content/Welcome';
-import CountdownTimer from './content/CountdownTimer';
+// import CountdownTimer from './content/CountdownTimer';
 import Rsvp from './content/Rsvp';
-import DressCode from './content/DressCode';
+// import DressCode from './content/DressCode';
 import DateTime from './content/DateTime';
 
 import { BrowserView, MobileView} from 'react-device-detect';
@@ -22,11 +22,11 @@ function App() {
       <BrowserView>
         <h1>This is rendered only in browser</h1>
       </BrowserView>
-      <MobileView>
+       <MobileView>
         <Welcome/>
-        <CountdownTimer/>
+        {/* <CountdownTimer/> */}
         <Rsvp/>
-        <DressCode/>
+        {/* <DressCode/> */}
         <DateTime/>
       </MobileView>
     </div>

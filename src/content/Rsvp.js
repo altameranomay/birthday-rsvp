@@ -6,9 +6,9 @@ const Rsvp = () => {
       <p className="txt" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">Hello</p>
       <h1 className="txt-rsvp" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">Friends</h1>
       <h1 className="txt-big" data-aos="flip-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">RS<br/>VP</h1>
-      <p className="txt-description" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">before October 08</p> 
+      <p className="txt-description" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">before September 30</p> 
       <p className="description" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">Please click the rsvp button and kindly let us know if you can make it</p> 
-      <a className="lnk-rsvp" href="https://altameranomay.github.io/birthday-rsvp/" target="_blank" rel="noreferrer">RSVP</a>
+      <a className="lnk-rsvp" href="https://docs.google.com/forms/d/e/1FAIpQLSfvRnp3B1rXWxO8xOkREo5yLGK7vKAGS8LJ5vscJ4grkILfCw/viewform?usp=publish-editor" target="_blank" rel="noreferrer" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">RSVP</a>
 
 
     </div>
