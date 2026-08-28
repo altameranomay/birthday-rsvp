@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/birthday-rsvp/static/css/main.ef12accb.css",
-    "main.js": "/birthday-rsvp/static/js/main.9cf90f7d.js",
+    "main.css": "/birthday-rsvp/static/css/main.efe3749d.css",
+    "main.js": "/birthday-rsvp/static/js/main.bf29a1b9.js",
     "static/js/453.217824e1.chunk.js": "/birthday-rsvp/static/js/453.217824e1.chunk.js",
     "static/media/background.png": "/birthday-rsvp/static/media/background.abfb9a09d463d6079a92.png",
     "static/media/balloon.png": "/birthday-rsvp/static/media/balloon.9193fbf2016f3687e792.png",
@@ -10,12 +10,12 @@
     "static/media/DroidSerif.ttf": "/birthday-rsvp/static/media/DroidSerif.5629c884209db361d10c.ttf",
     "static/media/BrittanySignature.ttf": "/birthday-rsvp/static/media/BrittanySignature.0d8ad040c68381fe6600.ttf",
     "index.html": "/birthday-rsvp/index.html",
-    "main.ef12accb.css.map": "/birthday-rsvp/static/css/main.ef12accb.css.map",
-    "main.9cf90f7d.js.map": "/birthday-rsvp/static/js/main.9cf90f7d.js.map",
+    "main.efe3749d.css.map": "/birthday-rsvp/static/css/main.efe3749d.css.map",
+    "main.bf29a1b9.js.map": "/birthday-rsvp/static/js/main.bf29a1b9.js.map",
     "453.217824e1.chunk.js.map": "/birthday-rsvp/static/js/453.217824e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef12accb.css",
-    "static/js/main.9cf90f7d.js"
+    "static/css/main.efe3749d.css",
+    "static/js/main.bf29a1b9.js"
   ]
 }
